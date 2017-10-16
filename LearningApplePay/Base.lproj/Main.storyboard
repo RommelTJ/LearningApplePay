@@ -30,7 +30,7 @@
         <!--Confirmation View Controller-->
         <scene sceneID="0J6-sG-VSV">
             <objects>
-                <viewController id="fJB-vd-ZXX" customClass="ConfirmationViewController" customModule="ApplePay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fJB-vd-ZXX" customClass="ConfirmationViewController" customModule="LearningApplePay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jdC-0O-shX"/>
                         <viewControllerLayoutGuide type="bottom" id="jaz-Vf-Yf7"/>
@@ -62,7 +62,7 @@
                         <viewLayoutGuide key="safeArea" id="86Z-F6-zMA"/>
                     </view>
                     <connections>
-                        <outlet property="idLabel" destination="gdd-yE-UGl" id="mGG-2V-eD4"/>
+                        <outlet property="idLabel" destination="gdd-yE-UGl" id="gMm-KP-lYY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cuM-Ah-ag8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -72,7 +72,7 @@
         <!--View Controller-->
         <scene sceneID="DCV-fd-Lh9">
             <objects>
-                <viewController id="12t-9r-199" customClass="ViewController" customModule="ApplePay" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="12t-9r-199" customClass="ViewController" customModule="LearningApplePay" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fGh-vg-iMa"/>
                         <viewControllerLayoutGuide type="bottom" id="Cby-Es-9wU"/>
@@ -146,7 +146,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ZOv-y8-CFO"/>
                     <connections>
-                        <outlet property="bottomToolbar" destination="ane-vl-xIq" id="oUj-vs-m0K"/>
+                        <outlet property="bottomToolbar" destination="ane-vl-xIq" id="gOG-9g-lAE"/>
                         <segue destination="fJB-vd-ZXX" kind="show" identifier="purchaseConfirmed" id="e6u-aS-6fn"/>
                     </connections>
                 </viewController>

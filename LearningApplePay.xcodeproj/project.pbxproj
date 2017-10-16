@@ -22,6 +22,7 @@
 		B0BCF11D1F945894005D547E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0BCF1201F945894005D547E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0BCF1221F945894005D547E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0FAA07B1F9505D0005D6FC4 /* LearningApplePay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningApplePay.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		B0BCF1151F945894005D547E /* LearningApplePay */ = {
 			isa = PBXGroup;
 			children = (
+				B0FAA07B1F9505D0005D6FC4 /* LearningApplePay.entitlements */,
 				B0BCF1161F945894005D547E /* AppDelegate.swift */,
 				B0BCF1181F945894005D547E /* ViewController.swift */,
 				B0BCF11A1F945894005D547E /* Main.storyboard */,
@@ -97,6 +99,11 @@
 					B0BCF1121F945894005D547E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -274,11 +281,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningApplePay/LearningApplePay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = LearningApplePay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningApplePay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningApplePay2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,11 +297,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LearningApplePay/LearningApplePay.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6RV5CH2XTD;
+				DEVELOPMENT_TEAM = 3ZZ84E4F9U;
 				INFOPLIST_FILE = LearningApplePay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningApplePay;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rommelrico.LearningApplePay2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

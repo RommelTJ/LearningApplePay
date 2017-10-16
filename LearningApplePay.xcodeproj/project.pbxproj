@@ -12,6 +12,7 @@
 		B0BCF11C1F945894005D547E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BCF11A1F945894005D547E /* Main.storyboard */; };
 		B0BCF11E1F945894005D547E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BCF11D1F945894005D547E /* Assets.xcassets */; };
 		B0BCF1211F945894005D547E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BCF11F1F945894005D547E /* LaunchScreen.storyboard */; };
+		B0FAA07D1F950F3C005D6FC4 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FAA07C1F950F3C005D6FC4 /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B0BCF1201F945894005D547E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0BCF1221F945894005D547E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FAA07B1F9505D0005D6FC4 /* LearningApplePay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LearningApplePay.entitlements; sourceTree = "<group>"; };
+		B0FAA07C1F950F3C005D6FC4 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B0FAA07B1F9505D0005D6FC4 /* LearningApplePay.entitlements */,
 				B0BCF1161F945894005D547E /* AppDelegate.swift */,
 				B0BCF1181F945894005D547E /* ViewController.swift */,
+				B0FAA07C1F950F3C005D6FC4 /* ConfirmationViewController.swift */,
 				B0BCF11A1F945894005D547E /* Main.storyboard */,
 				B0BCF11D1F945894005D547E /* Assets.xcassets */,
 				B0BCF11F1F945894005D547E /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FAA07D1F950F3C005D6FC4 /* ConfirmationViewController.swift in Sources */,
 				B0BCF1191F945894005D547E /* ViewController.swift in Sources */,
 				B0BCF1171F945894005D547E /* AppDelegate.swift in Sources */,
 			);
